@@ -7,15 +7,29 @@ table{
     font-size: 1.8rem;
 }
 
-table, td, th{
-    border: 1px solid black;
+table{
+    border: 1px solid rgb(211, 26, 26);
 }
 
+/* Claro, vamos simplificar. O seletor :first-child em CSS aplica estilos ao primeiro elemento dentro de outro elemento. Por exemplo, se você tem uma lista de itens (<ul>), e você quer estilizar apenas o primeiro item (<li>) da lista, você usaria li:first-child. Assim, o estilo será aplicado apenas ao primeiro <li> e não aos outros itens da lista. */
 thead:first-child{
     background-color: aquamarine;
-    color: rgb(8, 6, 2);
+    color: rgb(122, 51, 118);
 }
 
-tbody:nth-child(1n+3) {
+/* Claro, vamos simplificar. O seletor :nth-child(n) em CSS aplica estilos a elementos com base na sua posição dentro de um grupo. Por exemplo, em uma lista (<ul>), se você quiser estilizar o terceiro item (<li>), você usaria li:nth-child(3). Isso aplicará o estilo apenas ao terceiro item da lista, independentemente dos outros itens. ESTE COMANDO TMBM SE PODE INTERCALAR AS CORES DA TMBM.
+ */
+table,tr:nth-child(2n+3) {
 background-color: rgb(84, 64, 196);
 }
+
+ul, ol{
+    padding-left: 30px;
+}
+
+ul{list-style: circle;}
+
+ol{
+    list-style: decimal-leading-zero;}
+
+    
