@@ -1,0 +1,16 @@
+
+:root{
+    font-size: 62,5%;
+}
+
+.box{
+    height: 10rem;
+    width: 20rem;
+    margin: 1.0rem;
+    padding: 1.5rem;
+    background-color: aquamarine;
+    color: rgb(156, 172, 172);
+    border: 8px solid crimson;
+    display: inline-block;
+    
+}
