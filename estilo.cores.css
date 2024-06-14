@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    /* margin define a margem */
+    padding: 0;
+    /* pedding define a borda */
+}
+
+h1{color: rgb(245, 3, 3);
+    /* define a cor da fonte */
+    background-color: rgb(255, 240, 240);
+    /* background-xolo define a cor do fundo das fontes*/
+    font-size: 50px;
+    /* fonte-size:...px; serve para mudar o tamanho da fonte */
+    font-weight: 100;
+    font-style: oblique;
+    font-styler serve para mudar o formato da ofonte
+    text-decoration: underline;
+    /* text-decoration serve para por formas na fonte sublinhado */
+    text-align: center;
+    /* text- align center; é utilizado para centralizar palavras ou texto */
+}
+
+p{
+    font-size: 18px;
+    /* font-size tamanho da fonte */
+    text-align: justify;
+    /* text-align: justify; deixa o texto alinhado e visualmente uniforne parece de livro.*/
+    text-indent: 50px;
+    /* text-ident:...px; serve para da um recuo no inicio do paragrafo. */
+}
+
+.foto-img {
+        height: 500px;
+
+        width: 100%px;
+
+        background-image: url(https://images.unsplash.com/photo-1689602037070-fec2eca3f5b2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+        background-size: cover;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+        
+        background-attachment: fixed;
+}
+
