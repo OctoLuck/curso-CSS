@@ -1,0 +1,21 @@
+:root{
+ font-size:62,5%;
+}
+
+table{
+    font-family: 'time new roman';
+    font-size: 1.8rem;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+thead:first-child{
+    background-color: aquamarine;
+    color: rgb(8, 6, 2);
+}
+
+tbody:nth-child(1n+3) {
+background-color: rgb(84, 64, 196);
+}
