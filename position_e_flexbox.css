@@ -3,6 +3,15 @@
     font-size: 62,5%;
 }
 
+.boxes {
+    
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
 .box{
     height: 10rem;
     width: 20rem;
@@ -10,7 +19,8 @@
     padding: 1.5rem;
     background-color: aquamarine;
     color: rgb(156, 172, 172);
-    border: 8px solid crimson;
+    border: 8px solid rgb(23, 20, 220);
     display: inline-block;
-    
+    border-radius: 0.4rem;
+    position: relative;
 }
